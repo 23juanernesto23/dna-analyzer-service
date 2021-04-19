@@ -1,8 +1,8 @@
 package com.challenge.dnaanalyzerservice.repository.service;
 
+import com.challenge.dnaanalyzerservice.domain.Dna;
 import com.challenge.dnaanalyzerservice.domain.DnaReport;
 import com.challenge.dnaanalyzerservice.repository.DnaRepository;
-import com.challenge.dnaanalyzerservice.domain.Dna;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

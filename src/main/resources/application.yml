@@ -31,3 +31,9 @@ management:
   endpoint:
     health:
       show-details: always
+
+
+---
+
+spring:
+  profiles: local

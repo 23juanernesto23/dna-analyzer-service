@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1189636700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Elimino datos base de datos",
+            "match": {
+              "location": "com.challenge.dnaanalyzerservice.DnaAnalyzerServiceSteps.eliminoDatosBaseDeDatos()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-19T15:02:01.270Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9262200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.challenge.dnaanalyzerservice.DnaAnalyzerServiceSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Consulta de secuencias de adn",
+        "description": "",
+        "id": "dna-analyzer-service;consulta-de-secuencias-de-adn",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 608298800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Consulto adn y guardo en base de datos",
+            "match": {
+              "location": "com.challenge.dnaanalyzerservice.DnaAnalyzerServiceSteps.consulto_adn(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "dnaRequest",
+                  "status"
+                ]
+              },
+              {
+                "cells": [
+                  "[\"TCTCCA\",\"CAGGGG\",\"GATTAA\",\"AGACGA\",\"CTGCAT\",\"FCGGRA\"]",
+                  "200"
+                ]
+              },
+              {
+                "cells": [
+                  "[\"TTGTGA\",\"CAGTGC\",\"TTATCT\",\"AGCTCG\",\"CGTCAA\",\"TCACTG\"]",
+                  "403"
+                ]
+              },
+              {
+                "cells": [
+                  "[\"TCGTGA\",\"TAGTGC\",\"TTATCT\",\"TGGCCG\",\"TGCTAA\",\"ACACTG\"]",
+                  "200"
+                ]
+              },
+              {
+                "cells": [
+                  "[\"TTGCGA\",\"CAGTGC\",\"TTCTGT\",\"AGCACG\",\"CCTCAA\",\"TCACTG\"]",
+                  "403"
+                ]
+              },
+              {
+                "cells": [
+                  "[\"ATGCGA\",\"CAGTGC\",\"TTATTT\",\"AGACGG\",\"GCGTCA\",\"TCACTG\"]",
+                  "403"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109160500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Valido ratio",
+            "match": {
+              "location": "com.challenge.dnaanalyzerservice.DnaAnalyzerServiceSteps.valido_ratio(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "count_mutant_dna",
+                  "count_human_dna",
+                  "ratio"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "3",
+                  "0.66"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dna Analyzer Service",
+    "description": "",
+    "id": "dna-analyzer-service",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.challenge.dnaanalyzerservice/dna-analyzer-service.feature",
+    "tags": []
+  }
+]

@@ -14,6 +14,18 @@ import java.util.function.Predicate;
 @Controller
 public class DnaManager {
 
+    public int countMutants(Dna dna) {
+        List<String> dnaSecuences = new ArrayList<>();
+        dnaSecuences.addAll(dna.getDna());
+
+        Matrix matrix = buildMatrix(dna);
+
+        dnaSecuences.addAll(getVerticallDnaSecuences(matrix));
+        dnaSecuences.addAll(getDiagonals(matrix, dna.getMutantDnaBaseLength()));
+
+        return countSecuencesOnDna(dnaSecuences, dna.getMutantDnaBaseLength());
+    }
+
     public boolean isValidDnaChain(DNARequest dnaRequest) {
         int firstDnaSecuenceLength = dnaRequest.getDna()[0].length();
         Predicate<String> predicate = dnaSecuence -> dnaSecuence.length() == firstDnaSecuenceLength && dnaSecuence.length() == dnaRequest.getDna().length ;
@@ -97,4 +109,5 @@ public class DnaManager {
 
         return matrix;
     }
+
 }
