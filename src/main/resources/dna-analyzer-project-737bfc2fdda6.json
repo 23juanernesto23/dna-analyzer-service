@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dna-analyzer-project",
+  "private_key_id": "737bfc2fdda6f6b71b0262a70cbe44db72f7b990",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLAoumbPvoVhGe\nJZLO8xK0cqiieo+PnlbyHnyCVaALY3yRkXv09ASg9fgmNVIam9MXS9YHd5O8TtzI\nP786rzNQk584bQ05/uq9Y6L0vj2emlCVkgW4+Y8omDJHAylHI9DYCswaSFOEZ3iE\nWW5GFt33ZENKfI9EmxGaJdZ98WHQPvFrOlxpznyTn5UOY63ScPINV+NC7BNzehHF\nhAM5FvJQIUnSdMqCQKxN/PDOnNV0c/mQA/y6EK5alUnFgUE8limHLxYHZXKK8rAG\nSuYIH5DLq7Xfa+q/vak7+CgkDSnW8F1NLfS9RKwfeD7Dke2zc/3EzgCI5Xo3Dudv\ncTJgu0/jAgMBAAECggEAAOqABj44ODIo8HoG7Pwg8J7uHG/b/otVN2MI+MonQwFS\nfJI8VvN4owS5G+wrYmLH5eonr6YVDNudGI/uydHbatjNY/nJ/li2sCgU795YdNVS\nkFWje9Qv38ByV1hCTpC58xZ3GUz5rKQgmIO2yj0Hmsy8u0dPdi7uFbBDKYEtCc/K\njUqazSaxCns6i3+oL9iTlb3lNc0TM2IxDztz2q0rH/4OvmyI2VAKN3quv/FHMDV/\nV+f0UsRM2ZWMmM5OOOLffeHBzm2LhIZxoI3L/RenhKHJBJJBEEZI5Xp+EBeeMzaw\nCP57u4w7ZqiG+IhP0fhKma1PyHwAnJi2n3GQ3nsAIQKBgQDrOYuXpY77k4EYgNlu\n0q26CeIh1pII/Lfhe3QxRcvJNcoyf26GwhdCbqJNDL7KCvQtLWbQTodUWXI6XrjJ\nwV1grEeX6RBuLAp2/uL8e1/r0WqwArHfvS0UWOExycoKvPXUZiw2pbkxP44wakBw\namrAap3S4kYnvTEEmzlaPoKJiQKBgQDc8J6caemCdV+jf4OXuxUWWL+hCWo9g6bY\nPUBZIqPhmuyXR0gxVQjso3XlgQoVAgLIcw1ExwIjsGeqLZuMteIie1aSfOJMChoN\n3pkomDAm1QN9g9Gb/XCmZ/KBWQ3v4Y7ZUSmtfjkJEXHryvmf6rOo+U5Tq8E/p3eq\nyyaBxVVvCwKBgD2w5e9ruEg6s0zd3ii2kGGOXgRJ5hr9TKySWDLj/0JSHSmJSk+F\nb9w4b9CNWyxaGxgOJDzVm6B/pPmyBfzD/d1w0YYB1hFO85+p0ZYuNUX/sl9fFY98\naepANS99oMOYM1D1Svs6E4vbA0unUicpgb3dOG8qcQPTFpwCqdQFOO8hAoGAcP8n\nP7vzT2OUTFx1Au8Ns+Yj68qS6W8hr8pz1KKgykuf4Sb1xzVEYTKgo4ZBj8j9f2NI\nT/qwH2yjOCgnO+nyA8ys1DLG0jkAZkOIdXiQd+vN4y290Ffoe1MCdiEDvcHQe1jF\nRhQeO4MOjpe634z74dnPs39OUK3nyBQqV4iDT00CgYEAjpqL0EcqpfbS1TasgmPF\ngSA+sbyVpvau3TNJ1AUkEPD/Gi9D4rUr/xUNHz6dw/vkm2X2YAO7K6Xgma/AG0d1\nclAheFJsODSVPj10Soahe/JehTzV+VOj4gSdY8/L20MolbiKAghH/d23HYiokOlV\nkUpIyy2KpHD68VQLYjbEucY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dna-analyzer-project@appspot.gserviceaccount.com",
+  "client_id": "109721150444665411926",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dna-analyzer-project%40appspot.gserviceaccount.com"
+}

@@ -1,0 +1,33 @@
+application:
+  name: dna-verification-service
+
+server:
+  port: 8080
+
+
+mongodb:
+  uri: mongodb+srv://dbUser:Credentials*2021@dna-analyzer-db-cluster.6qpzb.mongodb.net/dna_db?retryWrites=true&w=majority&maxIdleTimeMS=100000
+  name: dna_db
+
+dna:
+  mutant:
+    base:
+      length: 4
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+
+
+spring:
+  cloud:
+    gcp:
+      credentials:
+        location: file:src/main/resources/dna-analyzer-project-737bfc2fdda6.json
+
+service: dna-analyzer
+
+management:
+  endpoint:
+    health:
+      show-details: always
